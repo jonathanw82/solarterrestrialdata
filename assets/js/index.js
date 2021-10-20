@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
 });
 
 setInterval(refresh, 600000);         // call the refresh funtion every 10mins
-setInterval(clock, 1000);
+setInterval(clock, 1000);             // call the clock funtion every 1 second to give RTC
 
 function refresh() {
     counter++;                      // increase the counter by 1 each time
@@ -29,8 +29,7 @@ function getTime() {
 // get the current date and time and display when called every second
 function clock() {
     const monthNames = ["January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
+        "July", "August", "September", "October", "November", "December"];
     const d = new Date();
     const h = d.getHours();
     const m = d.getMinutes();
@@ -38,5 +37,5 @@ function clock() {
     const day = d.getDay();
     const month = d.getMonth();
     const year = d.getFullYear();
-    currentTime.innerHTML = `${day}-${monthNames[month]}-${year}    ${h}:${m}:${(s < 10 ? "0" + s : s)}`;
+    currentTime.innerHTML = `${day}-${monthNames[month]}-${year}     ${h}:${(m < 10 ? "0" + m : m)}:${(s < 10 ? "0" + s : s)}`;
 }

@@ -20,11 +20,16 @@ body{
 }
 
 .data1{
-    width: 30%;
+    width: 28.1%;
 }
 
 .data2{
-    width: 30%;
+    width: 34%;
+}
+
+.currentTime{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
 }
 
 .refeshData{
