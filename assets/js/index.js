@@ -34,7 +34,7 @@ function clock() {
     const h = d.getHours();
     const m = d.getMinutes();
     const s = d.getSeconds();
-    const day = d.getDay();
+    const day = d.getDate();
     const month = d.getMonth();
     const year = d.getFullYear();
     currentTime.innerHTML = `${day}-${monthNames[month]}-${year}     ${h}:${(m < 10 ? "0" + m : m)}:${(s < 10 ? "0" + s : s)}`;
