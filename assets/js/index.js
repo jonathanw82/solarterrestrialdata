@@ -23,7 +23,7 @@ function refresh() {
 // get the current time and display it on the page when called
 function getTime() {
     const d = new Date();
-    dateTimeinfo.innerHTML = `Page last refeshed ${d}`;
+    dateTimeinfo.innerHTML = `Page Last Refeshed ${d}`;
 }
 
 // get the current date and time and display when called every second
