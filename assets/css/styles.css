@@ -1,0 +1,28 @@
+body{
+    background-image: url("/assets/images/imageBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+
+.datawide{
+    text-align: center;
+}
+
+.data0{
+    width: 60%;
+}
+
+.data1{
+    width: 30%;
+}
+
+.data2{
+    width: 30%;
+}
