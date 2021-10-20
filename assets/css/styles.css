@@ -26,3 +26,10 @@ body{
 .data2{
     width: 30%;
 }
+
+.refeshData{
+    padding-top: 10px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
