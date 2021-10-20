@@ -3,8 +3,8 @@
 const currentTime = document.getElementById("currentTime");
 const dateTimeinfo = document.getElementById("refresh");
 const down = document.getElementById("countdown");
-let minutes = 0;
-let seconds = 10;
+let minutes = 10;
+let seconds = 60;
 
 // when the page first loads initially hard refresh the page
 window.addEventListener("load", function () {
