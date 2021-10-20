@@ -11,11 +11,11 @@ window.addEventListener("load", function () {
     getTime();
 });
 
-setInterval(clock, 1000);             // call the clock funtion every 1 second to give RTC
+setInterval(clock, 1000);           // call the clock funtion every 1 second to give RTC
 
 // reload the page and get the current time and date
 function refresh() {
-    location.reload(true);
+    window.location.reload(true);
     getTime();                      // call the time function
 }
 
