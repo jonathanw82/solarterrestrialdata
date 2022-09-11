@@ -1,5 +1,5 @@
 <h1 align="center">
-   <a href="https://jonathanw82.github.io/solarterrestrialdata/" target="_blank"><img src="assets/images/repoimage.jpg" alt="logo image"/></a>
+   <a href="https://jonathanw82.github.io/solarterrestrialdata/" target="_blank"><img src="assets/images/sola.jpg" alt="logo image"/></a>
  </h1>
 
 # Live Solar Terrestrial Data
