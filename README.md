@@ -1,6 +1,6 @@
-<div align="center">
-  <img src="assets/repoimage.jpg" alt="logo image" width="70%"/></a>
- </div>
+<h1 align="center">
+   <a href="https://jonathanw82.github.io/solarterrestrialdata/" target="_blank"><img src="static/media/repoimage.jpg" alt="logo image"/></a>
+ </h1>
 
 # Live Solar Terrestrial Data
 
